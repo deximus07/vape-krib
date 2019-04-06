@@ -12,12 +12,14 @@ body {
     width: 50%;
     display: inline-block;
     float: left;
+    padding-left: 100px;
 }
 
 .container{
-    width: 50%;
+    width: 30%;
     display: inline-block;
     float: left;
+    margin-left: 120px;
 }
 
 ul {
@@ -25,7 +27,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    text-align: right;
   }
   
   li {
@@ -35,11 +37,12 @@ ul {
   li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111111;
+    background-color: #f8aa01;
+    transition: 1s;
   }
